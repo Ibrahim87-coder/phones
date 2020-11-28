@@ -1,4 +1,4 @@
-fetch('http://10.0.0.16:3000/')
+fetch('https://phones28112020.herokuapp.com/')
   .then(response => response.json())
   .then(json => {
       for (let i = 0; i < json.length; i++) {
