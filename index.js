@@ -6,7 +6,7 @@ fetch('http://localhost:3000/')
          
         var y = document.createElement('div');
         
-        var content =  `<div class="card-columns" style="width:760px">
+        var content =  `<div class="col-sm-6" style="width:500px">
                         <img class="card-img-top" src="FFF" alt="Flowers in Chania">
                         <div class="card-body">
                         <h4 class="card-title">YYY / DDD</h4>
