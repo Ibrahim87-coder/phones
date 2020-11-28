@@ -4,8 +4,9 @@ fetch('http://localhost:3000/')
       for (let i = 0; i < json.length; i++) {
 
          
-        var y = document.createElement('li');
-        var content =  `<div class="card" style="width:400px">
+        var y = document.createElement('div');
+        
+        var content =  `<div class="card-columns" style="width:760px">
                         <img class="card-img-top" src="FFF" alt="Flowers in Chania">
                         <div class="card-body">
                         <h4 class="card-title">YYY / DDD</h4>
@@ -25,7 +26,7 @@ fetch('http://localhost:3000/')
         test= test.replace("AAA","Price ($$$) : " + json[i].Price);
        
         y.innerHTML =test;
-        y.className = "list-group-item";
+        y.className = "card";
         document.getElementById('myUL').appendChild(y);
 
                                               
